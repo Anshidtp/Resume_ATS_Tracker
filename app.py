@@ -37,14 +37,20 @@ resume:{text}
 description:{jd}
 
 I want the response in one single string having the structure
-{{"JD Match":"%","MissingKeywords:[]","Profile Summary":""}}
+- JD Match:  % (bold)
+
+- MissingKeywords:  ,
+
+- Profile Summary:
+(paragraph)
+-----
 """
 
 ## streamlit app
 st.title("AI Resume Analyzer")
 st.text("Sync Your Resume With JD")
 jd=st.text_area("Paste the Job Description")
-uploaded_file=st.file_uploader("Upload Your Resume",type="pdf",help="Please uplaod the pdf")
+uploaded_file=st.file_uploader("Upload Your Resume",type="pdf",help="Please upload the pdf")
 
 submit = st.button("Submit")
 
