@@ -1,7 +1,7 @@
 # Resume ATS  Tracker
 Transform Your Job Search: Unveil Your Perfect Resume Match with AI Resume Analyzer
 
-
+![Demo](https://github.com/Anshidtp/Resume_ATS_Tracker/blob/main/resume%20ats%20tracker.gif)
 
 ## Overview
 
